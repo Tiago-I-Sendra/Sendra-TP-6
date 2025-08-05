@@ -1,0 +1,26 @@
+1) ingresar un vector de 8 elementos y informe:
+valor acumulado total.
+valor acumulado de 36>
+cantidad de 50>
+
+#include<vector>
+int AcumulacionTotal (vector<int> A)
+{
+int B = 0;
+for(int i,i<=8,i++)
+ {
+B = B + A(i);
+ }
+}
+
+int main(int argc, char *argv[])
+
+{
+
+vector<int> Elementos (8);
+
+for(int i,i<=8)
+
+Acumulación Total (Elementos);
+
+}
