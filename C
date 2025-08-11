@@ -1,0 +1,5 @@
+3 -  Definir tres vectores de tipo entero.
+Realizar la carga de los dos primeros por teclado. 
+Definir una única función que realice la carga de un vector y llamar a dicha función dos veces pasando el primer y segundo vector definido.
+Plantear otra función que reciba tres vectores y proceda a sumar elemento a elementos los dos primeros vectores y se carguen en el tercer vector.
+Imprimir los tres vectores.
