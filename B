@@ -2,3 +2,39 @@
 y otra que muestre un vector de 5 elementos enteros.
 En la función main definir una variable de tipo vector y seguidamente llamar a las dos funciones.
 
+#include<iostream>
+#include<vector>
+
+////////////////////////////////
+int Cargador (vector<int> A)
+{
+int B = 0;
+for(int i,i<=5,i++)
+ {
+  cin>>A(i);
+ }
+
+}
+
+////////////////////////////////
+int Disparador (vector<int> A)
+{
+int B = 0;
+for(int i,i<=5,i++)
+ {
+  cout<<i<<":"<<A(i)<<endl;
+ }
+
+}
+
+////////////////////////////////
+int main(int argc, char *argv[])
+{
+
+vector<int> Elementos (5);
+
+Cargador (Elementos);
+
+Disparador (Elementos);
+
+}
