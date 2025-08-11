@@ -1,3 +1,37 @@
 4 -  Cargar un vector de 10 elementos y verificar posteriormente si el mismo está ordenado de menor a mayor. 
 Hacer las dos actividades en funciones distintas.
 
+#include<iostream>
+#include<vector>
+
+////////////////////////////////
+int Cargador (vector<int> A)
+{
+  for = (int i = 0,i=<10,i++)
+  {
+  cin>>A(i);
+  }
+}
+
+////////////////////////////////
+int Menor_Mayor (vector<int> A)
+{
+  for = (int i = 0,i=<10,i++)
+  {
+  if(A(i)<A(i+1)){;}
+  else i = 15;
+  }
+
+  if(i = 10){cout<<"esta ordenado"<<endl;}
+  if(i = 15){cout<<"no esta ordenado"<<endl;}
+}
+
+////////////////////////////////
+int main(int argc, char *argv[])
+{
+vector<int> Elementos(10);
+
+Cargador (Elementos);
+
+Menor_Mayor (Elementos);
+}
