@@ -19,7 +19,10 @@ int main(int argc, char *argv[])
 
 vector<int> Elementos (8);
 
-for(int i,i<=8)
+for(int i = 0,i<=8,i++)
+{
+cin>>Elementos (i);
+}
 
 Acumulación Total (Elementos);
 
