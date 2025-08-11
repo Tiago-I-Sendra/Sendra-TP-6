@@ -1,0 +1,4 @@
+2 -  Confeccionar un programa que defina dos funciones, una que permita cargar un vector de 5 elementos enteros 
+y otra que muestre un vector de 5 elementos enteros.
+En la función main definir una variable de tipo vector y seguidamente llamar a las dos funciones.
+
