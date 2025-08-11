@@ -1,0 +1,5 @@
+5- Definir un vector de 5 componentes de tipo float en la función main que representen las alturas de 5 personas.Desarrollar las siguientes funciones:
+-Carga del vector.
+-Retornar el promedio del vector.
+float calcularPromedio(float alturas[5])
+-Contar y luego imprimir cuántas personas son más altas que el promedio y cuántas más bajas.
