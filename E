@@ -3,3 +3,43 @@
 -Retornar el promedio del vector.
 float calcularPromedio(float alturas[5])
 -Contar y luego imprimir cuántas personas son más altas que el promedio y cuántas más bajas.
+
+#include<iostream>
+#include<vector>
+
+////////////////////////////////
+int Cargador (vector<float> A)
+{
+for(int i = 0,i<5,i++)
+ {
+ cin>>A(i)
+ }
+}
+
+////////////////////////////////
+int CalculadorPromedio (vector<float> A)
+{
+int B = 0;
+for (int i = 0,i<5,i++)
+{
+B = B + A(i);
+}
+
+for(int i = 0,i<5,i++)
+{
+if (B>A(i)){cout<<A(i)<<"es mayor"<<endl;}
+
+if (B<A(i)){cout<<A(i)<<"es menor"<<endl;}
+}
+
+}
+
+////////////////////////////////
+int main(int argc, char *argv[])
+{
+vector<float> Elementos (5);
+
+Cargador (Elementos);
+
+CalculadorPromedio (Elementos);
+}
